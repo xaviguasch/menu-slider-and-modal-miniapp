@@ -13,7 +13,104 @@
     <title>Menu Slider and Modal</title>
   </head>
   <body>
-    <h1>Menu Slider and Modal</h1>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Portfolio</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>My Landing Page</h1>
+
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, amet?</p>
+
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>What is this landing page about?</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, ducimus. Itaque modi
+        adipisci fugit ipsa vel blanditiis ut eaque error temporibus, at, expedita
+        aspernatur minus architecto non atque quibusdam sequi?
+      </p>
+
+      <h2>Tell Me More</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At porro expedita dicta
+        dolorem officiis minima vitae, molestiae amet delectus unde!
+      </p>
+
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Tailored Customer Support</li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ipsam
+        molestiae corrupti dolore debitis quasi vel neque? Veritatis recusandae, ullam
+        suscipit, quae architecto sed nisi officia earum id ut, accusamus consequatur
+        ipsa. Eos veritatis illum maxime expedita commodi totam perspiciatis sunt cumque
+        corporis ex vero, molestiae tempore eligendi. Ratione, maiores a. Ex delectus
+        tempora perferendis rem nihil vitae, maxime blanditiis dolores, hic cum sequi
+        repellendus, laboriosam ad. Accusantium, qui quam?
+      </p>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="#close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form action="" class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter Name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Enter Password" />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input type="password" id="password2" placeholder="Confirm Password" />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>
